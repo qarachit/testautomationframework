@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="pro" verbose="1" >
+	<test name="Login">
+		<classes>
+			<class name="com.timebank.test.TC01_NonSignedIn">
+			</class>
+		</classes>
+	</test>
+</suite>

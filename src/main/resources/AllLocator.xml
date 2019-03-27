@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<Header>
+		<LoginButton><![CDATA[//a[text()='Login']]]></LoginButton>
+	</Header>
+	<Login>
+		<UserName><![CDATA[openid_url]]></UserName>
+		<Password><![CDATA[openid_password]]></Password>
+		<SignIn><![CDATA[//input[@name='submit']]]></SignIn>
+		<VerifyLogIn><![CDATA[//li[@class='dropdown dropdown-list']//strong[@class='txtunder ng-binding']]]></VerifyLogIn>
+		<ValidationMessage><![CDATA[//div[@class='has-error']/p]]></ValidationMessage>
+		<isclicked><![CDATA[//img[@id='curr_prf_img']]]></isclicked>
+		<BtnLogOut><![CDATA[//button[text()='Log Out']]]> </BtnLogOut>
+	</Login>
+	<LogOut> 
+	<UserName><![CDATA[//img[@id='curr_prf_img']]]></UserName>
+	<LogOutButton>  </LogOutButton>
+	</LogOut>
+	<Allpagesload>
+		<HowItWorks><![CDATA[menu-item-322]]></HowItWorks>
+		<WhoCanJoin><![CDATA[menu-item-321]]></WhoCanJoin>
+		<SignUp><![CDATA[menu-item-320]]></SignUp>
+		<Howitworks5simplesteps><![CDATA[//h1[contains(text(),'How it works: 5 simple steps')]]]></Howitworks5simplesteps>
+		<WhoCanJoinAfterClick><![CDATA[//h1[contains(text(),'Who Can Join')]]]></WhoCanJoinAfterClick>
+		<SignUpAfterClick><![CDATA[//h1[contains(text(),'SIGN UP')]]]></SignUpAfterClick>
+		<WatchVideo><![CDATA[//a[@title='Watch a video about how TimeBanking works']]></WatchVideo>
+		<PlayVideo><![CDATA[//span[text()='×']]></PlayVideo>
+	</Allpagesload>
+	<Dashboard>
+	<RequestNOffers><![CDATA[//button[@ui-sref='app.servicelistings']]]></RequestNOffers>
+	<VerifySeeRequestNOffers><![CDATA[//h1[text()='filter listings']]]></VerifySeeRequestNOffers>
+	<ClickonDashboard><![CDATA[//span[contains(text(),'Dashboard')]]]></ClickonDashboard>
+	<UpcomingEvents><![CDATA[//div[@class='dashhdrmnu ng-scope']/nav/ul/li[2]/button]]></UpcomingEvents>
+	<VerifyUpcomingEvents><![CDATA[//h1[text()='upcoming events']]]></VerifyUpcomingEvents>
+	<NewMessages><![CDATA[//div[@class='dashhdrmnu ng-scope']/nav/ul/li[3]/button]]></NewMessages>
+	<VerifyNewMessage><![CDATA[//h1[text()='my inbox']]]></VerifyNewMessage>
+	<ScrollPrev><![CDATA[//div[@aria-hidden='false']/owl-carousel[@id='owl-demo']/div[@class='owl-controls clickable']/div/a[@class='owl-prev']]]></ScrollPrev>
+	<ScrollNext><![CDATA[//div[@aria-hidden='false']/owl-carousel[@id='owl-demo']/div[@class='owl-controls clickable']/div/a[@class='owl-next']]]></ScrollNext>
+	<SortRequest><![CDATA[//a[text()='Requests']]]></SortRequest>
+	<SortOffers><![CDATA[//a[text()='Offers']]]></SortOffers>
+	<ViewAllMember><![CDATA[//li[@class='col-sm-4 col-xs-4']//button[@class='btn btn-hmecta'][text()='view all members']]]></ViewAllMember>
+	<VerifyViewAllMember><![CDATA[//div[@class='blue brdrad5']//h1[text()='members']]]> </VerifyViewAllMember>
+	<DashboardMenuinLeft><![CDATA[//span[@class='ng-binding'][text()='Dashboard ']]]></DashboardMenuinLeft>
+	<ViewAllGroup><![CDATA[//div[@class='dashhdrmnu1 row']/nav/ul/li[2]/button]]></ViewAllGroup>
+	<VerifyViewAllGroups><![CDATA[//span[text()='create a:']]]></VerifyViewAllGroups>
+	<ViewAllEvent><![CDATA[//div[@class='dashhdrmnu1 row']/nav/ul/li[1]/button]]></ViewAllEvent>
+	<VerifyUpComingEvent><![CDATA[//div[@class='green brdrad5']//h1[text()='upcoming events']]]></VerifyUpComingEvent>
+	<ViewAllListing><![CDATA[//div[@class='col-xs-4 lst-sec']//div[text()=' VIEW ALL LISTINGS ']]]></ViewAllListing>
+	<VerifyViewAllListing><![CDATA[//div[@class='blue brdrad5 fltt']//h1[text()='filter listings']]]></VerifyViewAllListing>
+	<MyProfile><![CDATA[//span[text()='My Profile ']]]></MyProfile>
+	<RecordExchange><![CDATA[//span[text()=' record an exchange ']]]></RecordExchange>
+	<ListingType><![CDATA[//button[@btn-radio="'Listed'"]]]></ListingType>
+	<ExchangeType><![CDATA[//button[@btn-radio="'Request'"]]]></ExchangeType>
+	<ProviderService><![CDATA[//div[@id='providers_chosen']/ul]]></ProviderService>
+	<ChooseProvider><![CDATA[//div[@id='providers_chosen']/div[@class='chosen-drop']/ul/li[text()='Test Account']]]></ChooseProvider>
+	<ServiceReciever><![CDATA[//div[@id='receivers_chosen']/ul]]></ServiceReciever>
+	<ChooseReciever><![CDATA[//div[@id='receivers_chosen']/div[@class='chosen-drop']/ul/li[text()='Snow White']]]></ChooseReciever>
+	<ServiceTitle><![CDATA[//span[text()='Select Exchange']]]></ServiceTitle>
+	<ChooseTitle><![CDATA[//div[@class='select2-drop select2-with-searchbox select2-drop-active']/ul/li/ul/li[1]]]></ChooseTitle>
+	<ClickHours><![CDATA[//form[@name='listedForm']//span[text()='Select Hours']/following-sibling::div/b]]></ClickHours>
+	<ChooseHours><![CDATA[(//div[@class='select2-result-label ui-select-choices-row-inner']/div[text()='0'])[2]]]></ChooseHours>
+	<ClickMinutes><![CDATA[//form[@name='listedForm']//span[text()='Select minutes']/following-sibling::div/b]]></ClickMinutes>
+	<ChooseMinutes><![CDATA[(//div[@class='select2-result-label ui-select-choices-row-inner']/div[text()='15'])[2]]]></ChooseMinutes>
+	<Submit><![CDATA[//button[text()='record exchange']]]></Submit>
+	<PopUpOk><![CDATA[//button[text()='Ok']]]></PopUpOk>
+	<GeneralSettingLeftMenu><![CDATA[//span[text()='General Settings ']]]></GeneralSettingLeftMenu>
+	<ChooseFile><![CDATA[//input[@type='file']]]></ChooseFile>
+	<AboutMe><![CDATA[//textarea[@id='About me']]]></AboutMe>
+	<SaveProfile><![CDATA[//button[@type='submit']]]></SaveProfile>
+	<EditProfile><![CDATA[//a[text()='edit profile']]]></EditProfile>
+	<AccountDetails><![CDATA[//a[text()=' ACCOUNT DETAILS']]]></AccountDetails>
+	<TimeBankVisibility><![CDATA[//i[@class='myprf-tmbnk ng-binding'][text()='TimeBank']]]></TimeBankVisibility>
+	<TimeBankVisibiltyUpdate><![CDATA[//button[@class='btn btn-log btn-oval']]]></TimeBankVisibiltyUpdate>
+	<ExpandIconVisibility><![CDATA[(//i[@class='icon-plus fnt22'])[1]]]></ExpandIconVisibility>
+	<ExpandIcon><![CDATA[//h3[text()='Change Your Email & Notification Preferences']/following-sibling::div[@class='filterop']/a[@aria-hidden='false']/i]]></ExpandIcon>
+	<OkButton><![CDATA[//button[text()='Ok']]]></OkButton>
+	<ServiceListingToogle><![CDATA[//div[text()='Service Listings']/following-sibling::div/div/div/span[@ng-bind="knobLabel"]]]></ServiceListingToogle>
+	<EventsToogle><![CDATA[//div[text()='Events']/following-sibling::div/div/div/span[@ng-bind="knobLabel"]]]></EventsToogle>
+	<GroupsToogle><![CDATA[//div[text()='Groups']/following-sibling::div/div/div/span[@ng-bind="knobLabel"]]]></GroupsToogle>
+	</Dashboard>
+	
+	<Listing>
+	<ListingLeftMenu><![CDATA[//span[contains(text(),'Listings ')]]]></ListingLeftMenu>
+	<MyListing>
+	<ClickMyListing><![CDATA[//li[@class='ng-scope']/a[@href='#/app/my-listings']/span[text()='My Listings ']]]></ClickMyListing>
+	<EditListing><![CDATA[//li[@ng-repeat='listing in listings']/a[@href='#/app/viewlisting?Id=234']/following-sibling::div[@class='col-sm-3 listt nobubble pdlft30 my-listing-status']/div/div[@class='actions']/a[@role='button']]]></EditListing>
+	<UpdateListing><![CDATA[//button[text()='Update listing']]]></UpdateListing>
+	<DropDownMenu><![CDATA[//div[@aria-autocomplete='false']/a[@tabindex='0']/span[@aria-hidden='false']/following-sibling::div[@class='select2-arrow ']/b]]></DropDownMenu>
+	<PublishedListing><![CDATA[//li[@class='ui-select-choices-group']/ul[@class='select2-result-single']/li[@class='ui-select-choices-row ng-scope fntbld']/following-sibling::li[@class='ui-select-choices-row ng-scope']/div/div[text()='Published']]]></PublishedListing>
+	<UnPublishedListing><![CDATA[//li[@class='ui-select-choices-group']/ul[@class='select2-result-single']/li[@class='ui-select-choices-row ng-scope fntbld']/following-sibling::li[@class='ui-select-choices-row ng-scope']/div/div[text()='Unpublished']]]></UnPublishedListing>
+	<ExpiredListing><![CDATA[//li[@class='ui-select-choices-group']/ul[@class='select2-result-single']/li[@class='ui-select-choices-row ng-scope fntbld']/following-sibling::li[@class='ui-select-choices-row ng-scope']/div/div[text()='Expired']]]></ExpiredListing>
+	</MyListing>
+	<CreateNewListing> 
+    <CreateNewListingLeftMenu><![CDATA[//a[@class='ng-scope'][@title='Create New Listing']]]></CreateNewListingLeftMenu>
+    <ServiceTitle><![CDATA[//input[@name='service_title']]]></ServiceTitle>
+    <ServiceDetail><![CDATA[//textarea[@name='description']]]></ServiceDetail>
+    <CalendarBtn><![CDATA[//button[@title='choose date']]]></CalendarBtn>
+    <ExpirationDate><![CDATA[//div[5]/div/div/div/div/table/tbody/tr[5]/td[1]]]></ExpirationDate>
+    <TimeBankValueArrow><![CDATA[(//b)[1]]]></TimeBankValueArrow>
+    <TimeBankValueTestData><![CDATA[//div[@class='ng-binding ng-scope'][text()='1']]]></TimeBankValueTestData>
+    <CategoryArrowIcon><![CDATA[(//b)[2]]]></CategoryArrowIcon>
+    <CategoryTestData><![CDATA[//div[@class='ng-binding ng-scope'][text()='Arts & Crafts']]]></CategoryTestData>
+    <ListingImage><![CDATA[//div[@class='col-sm-3 col-xs-6 mgnbt5 text-center ng-scope'][@ng-if='img1']]]></ListingImage>
+    <TimeBankCommunityCheckBox><![CDATA[//input[@name='public_org_1011']/following-sibling::span]]></TimeBankCommunityCheckBox>
+    <NotificationTestPublic><![CDATA[//input[@name='notif_grp_74']/following-sibling::span]]></NotificationTestPublic>
+    <CreateListingBtn><![CDATA[//button[text()='create listing']]]></CreateListingBtn>
+    <VerifyCreateNewListing><![CDATA[//h3[@class='filtertitle medium upper fnt16 color-black'][text()='showing all listings']]]></VerifyCreateNewListing>
+    </CreateNewListing>
+    
+    <DeleteListing>
+    <RespondButton><![CDATA[(//button[@role='button'][text()='RESPOND'])[1]]]></RespondButton>
+    <ServiceListingLeftMenu><![CDATA[//a[@title='Service Listing']]]></ServiceListingLeftMenu>
+    <DeleteListingBtn><![CDATA[//button[@role='button'][text()='delete this listing']]]></DeleteListingBtn>
+    <DeleteLsitingYesBtn><![CDATA[//button[@type='button'][text()='Yes']]]></DeleteLsitingYesBtn>
+    </DeleteListing>
+    
+    <CreateListingPrivateRequest>
+    <Visibilty><![CDATA[(//input[@name='visibility_type']/following-sibling::span)[2]]]></Visibilty>
+    <OrgGroup><![CDATA[//input[@name='org_grp_1011']/following-sibling::span]]></OrgGroup>
+    </CreateListingPrivateRequest>
+    
+    </Listing>
+</Locators>
